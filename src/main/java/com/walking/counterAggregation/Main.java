@@ -9,10 +9,6 @@ public class Main {
             new Counter("Горячая вода", "м³"),
             new Counter("Электричество", "м³")}
         );
-
-        Main.printCounter(service);
-
-        System.out.println(service.getCounterByName("Электричество"));
     }
 
     private static void printCounter(CounterService service) {
