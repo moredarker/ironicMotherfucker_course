@@ -40,6 +40,7 @@ class Triangle extends Shape {
 		super(length);
 	}
 	
+	@Override
 	void draw() {
 		int spaces = 0;
 		String betweener = " ";
@@ -62,6 +63,7 @@ class Rectangle extends Shape {
 		super(length);
 	}
 	
+	@Override
 	void draw() {
 		int width = length + 2;
 		
